@@ -14,7 +14,8 @@ This project is a full-stack application featuring a Help Center with a React fr
 ## Setup
 
 1. Clone the repository:
-```git clone https://github.com/your-username/help-center-app.git cd help-center-app```
+```git clone https://github.com/rohanvron/fullstack-assignment``` 
+```cd fullstack-assignment```
 
 2. Install dependencies:
 ```cd frontend && npm install cd ../backend && npm install```
