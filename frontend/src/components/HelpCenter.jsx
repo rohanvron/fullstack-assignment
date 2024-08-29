@@ -24,11 +24,11 @@ const HelpCenter = () => {
       <header className="bg-black text-white p-4">
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           <div className="flex items-center">
-            <img src={abstractLogo} alt="Abstract" className="h-8 mr-2" />
+            <img src={abstractLogo} alt="Abstract" className="h-10 mr-2" />
             <h1 className=' mr-2 font-bold text-2xl'>Abstract</h1>
             <span className="text-2xl">| Help Center</span>
           </div>
-          <button className="bg-black text-white border border-white px-8 py-2 rounded-lg">Submit a request</button>
+          <button className="bg-black text-white border border-white px-8 py-2 rounded-lg hover:bg-white hover:text-black transition-all duration-600 hover:scale-95">Submit a request</button>
         </div>
       </header>
 
@@ -54,9 +54,9 @@ const HelpCenter = () => {
         
       </main>
 
-      <div className="grid md:grid-cols-2 gap-16 max-w-4xl mx-auto py-12 px-4 mb-10 cursor-pointer">
+      <div className="grid md:grid-cols-2 gap-16 max-w-4xl mx-auto py-12 px-4 mb-10">
           {filteredCards.map((card) => (
-            <div key={card._id} className="bg-[#eeeeee] p-6 rounded-xl border border-gray-300">
+            <div key={card._id} className="bg-[#eeeeee] p-6 rounded-xl border border-gray-300 cursor-pointer transition-all duration-300 hover:scale-105">
               <h2 className="text-2xl font-bold mb-2" >{card.title}</h2>
               <hr className="border-gray-300 my-3" />
               <p className="text-gray-600 mb-4">{card.description}</p>
@@ -102,7 +102,7 @@ const HelpCenter = () => {
       <a href="mailto:info@abstract.com" className="hover:underline">info@abstract.com</a>
     </div>
     <div className="flex flex-col items-start mt-40 text-xl">
-      <img src={abstractLogo} alt="Abstract" className="h-8 mb-2 text-xl"/>
+      <img src={abstractLogo} alt="Abstract" className="h-16 mb-2"/>
       <p>© Copyright 2023</p>
       <p>Abstract Studio Design, Inc.</p>
       <p>All rights reserved</p>
