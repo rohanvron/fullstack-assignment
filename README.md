@@ -3,7 +3,7 @@
 This project is a full-stack application featuring a Help Center with a React frontend and a Node.js backend.
 
 <p align="center">
-  <img src="./frontend/src/assets/1.PNG" alt="UI Screenshot">
+  <img src="https://res.cloudinary.com/ditaq2ecq/image/upload/fl_preserve_transparency/v1732183907/1_inny8m.jpg?_s=public-apps" alt="UI Screenshot">
 </p>
 
 ## Prerequisites
